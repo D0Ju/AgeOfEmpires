@@ -1,3 +1,5 @@
+#ifndef VILLAGER_H
+#define VILLAGER_H
 class Villager{
 
     public:
@@ -28,4 +30,6 @@ class Villager{
     int attack;
     double speed; 
 
-};
+};  
+
+#endif

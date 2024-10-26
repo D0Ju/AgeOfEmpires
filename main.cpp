@@ -1,5 +1,6 @@
 #include "define.h"
 #include "TownCenter.h"
+#include "Outpost.h"
 #include <iostream>
 
 int main() {
@@ -43,6 +44,19 @@ int main() {
   tc.trainVillager();
   tc.trainVillager(21);
   tc.info();
+  // Testiranje klase Outpostđ
+  //svaki put kad se stavi villager u outpost stavlja mu se Health na max (25) vjv zbog "new Villager(*drugiv.villager) " 
+  //koji poziva "Villager(const Villager &v);" konstruktor
+  Outpost o1;
+  o1.info();
 
+  Outpost o2(v3);
+  o2.info();
+
+  Outpost o3 = o2; // Koristi copy konstruktor
+  o3.info();
+
+  Outpost o4= v2;
+  o4.info();
 
 }

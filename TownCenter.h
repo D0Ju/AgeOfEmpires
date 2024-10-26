@@ -8,6 +8,7 @@ class TownCenter{
     Villager* trainVillager();
     Villager* trainVillager(int);
     void info();
+    
     private:
     int Jedinice;
     int Gradevine;
