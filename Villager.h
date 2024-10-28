@@ -1,5 +1,8 @@
 #ifndef VILLAGER_H
 #define VILLAGER_H
+#define VILLAGER_MAX_HEALTH 25
+#define VILLAGER_MAX_ATTACK 3
+#define VILLAGER_MAX_SPEED 0.8
 class Villager{
 
     public:
